@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="layout">
+
+    <aside class="sidebar">
+      <h2 class="logo">MyApp</h2>
+      <nav>
+        <a href="dashboard.html" class="active">Dashboard</a>
+        <a href="#">Profile</a>
+        <a href="#">Reports</a>
+        <a href="#">Messages</a>
+        <a href="#">Settings</a>
+      </nav>
+    </aside>
+
+    <div class="main">
+      <header class="topbar">
+        <h3>Dashboard</h3>
+        <div class="user-area">
+          <span>Welcome, User</span>
+          <a href="index.html" class="btn btn-small">Logout</a>
+        </div>
+      </header>
+
+      <main class="content">
+        <h2>Hello, User 👋</h2>
+        <p class="subtitle">Here is a quick overview of your account.</p>
+
+        <section class="cards">
+          <div class="card">
+            <h4>Total Users</h4>
+            <p class="number">1,250</p>
+          </div>
+          <div class="card">
+            <h4>Total Orders</h4>
+            <p class="number">320</p>
+          </div>
+          <div class="card">
+            <h4>Revenue</h4>
+            <p class="number">$8,450</p>
+          </div>
+          <div class="card">
+            <h4>Pending Tasks</h4>
+            <p class="number">12</p>
+          </div>
+        </section>
+
+        <section class="table-box">
+          <h3>Recent Activity</h3>
+          <table>
+            <thead>
+              <tr><th>#</th><th>Name</th><th>Activity</th><th>Date</th><th>Status</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>1</td><td>Alice Smith</td><td>Placed an order</td><td>2026-10-10</td><td><span class="badge success">Completed</span></td></tr>
+              <tr><td>2</td><td>Bob Johnson</td><td>Updated profile</td><td>2026-10-11</td><td><span class="badge success">Completed</span></td></tr>
+              <tr><td>3</td><td>Carol White</td><td>Submitted a report</td><td>2026-10-12</td><td><span class="badge warning">Pending</span></td></tr>
+              <tr><td>4</td><td>David Brown</td><td>Requested refund</td><td>2026-10-13</td><td><span class="badge danger">Rejected</span></td></tr>
+            </tbody>
+          </table>
+        </section>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
